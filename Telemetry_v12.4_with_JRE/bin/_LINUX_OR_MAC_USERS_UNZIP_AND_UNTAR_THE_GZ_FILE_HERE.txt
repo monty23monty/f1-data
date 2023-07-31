@@ -1,0 +1,22 @@
+!! Note, you need to have at least Java 17 with JavaFX extensions. !!
+!! The included custom JRE is based on Java 17 + JavaFX.           !!
+
+# LINUX
+Linux users  please untar the linux.tar.gz  file to this directory, so that the bash scripts to start the tool will work. 
+
+# macOS
+Mac users,  please unzip the mac.zip  file to this directory, so that the bash scripts to start the tool will work. 
+
+These files contain the JRE binaries needed to run the Telemetry tool.
+
+# mac on ARM (M1 or M2)
+If you run Mac on M1 or M2, please PM me at RaceDepartment for a M1 custom JRE.
+
+# Linux on ARM (Linux ARCH)
+If you run Linux on ARM, you need to build the custom JRE. Please contact me via RaceDepartment to get the help on building the binaries. Sadly Azul does not provide those binaries for Java 17 (i.e. Linux Aarch64 with JavaFX)
+
+# Additional download link:
+If the included binaries don't work for some reason, get the correct JRE from this link
+	https://www.azul.com/downloads/?version=java-17-lts&package=jre-fx#download-openjdk
+and unzip the contents to the bin directory (for Linux users to bin/linux and for MacUsers to the bin/mac directory)
+

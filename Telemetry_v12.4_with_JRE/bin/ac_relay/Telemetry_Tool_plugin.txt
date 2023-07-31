@@ -1,0 +1,53 @@
+Telemetry Tool plugin for AC
+
+Version 1.1
+
+# What this plugin does
+-----------------------------------------------------------------
+This plugin reads data from the game, namely the data for
+other drivers (AI or human) and sends the data over UDP to 
+127.0.0.1:10101.
+
+If you need to change the IP/Port, you can edit the .ini
+file in the package.
+
+When you use this plugin with the Telemetry Tool, the Telemetry
+Tool will show other cars data, including
+- position on trackmap
+- sector times/laptimes
+- race history and status etc.
+
+# How to install this plugin. 
+-----------------------------------------------------------------
+You have two options:
+1) install the plugin in the .zip file with Content Manager
+	or 
+2) unzip the .zip file to <assetto corsa install dir>
+
+# How to uninstall this plugin
+------------------------------------------------------------------
+If you used Content Manager, use it to remove the plugin.
+
+If you just unzipped the plugin, delete the Telemetry_Tool_plugin
+directory in the <assetto corsa install dir>\apps\python directory
+
+# What is new in 1.1
+----------------------
+- Fixed issues with Content Manager installation
+- Fixed the structure of the plugin to accomodata Content Manager
+- Added version data sending to the UDP feed, i.e. now Telemetry Tool knows, 
+     which plugin version is sending the data
+- Cleaned code
+- Removed unused Shared Memory references.
+- Renamed the sim_info.py to ttp_info.py to avoid issues with other plugins
+     using the sin_info.py
+
+# What is new is 1.0
+----------------------
+- First public version of the plugin
+
+
+
+
+
+
